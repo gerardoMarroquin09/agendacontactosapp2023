@@ -14,4 +14,11 @@
         android:hint="@string/hint_nombre"
         android:inputType="text"
         android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_apellido"
+        android:textSize="24sp" />
 </LinearLayout>

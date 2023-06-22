@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Agenda_contactos</string>
     <string name="hint_nombre">Nombre:</string>
+    <string name="hint_apellido">Apellido:</string>
 </resources>

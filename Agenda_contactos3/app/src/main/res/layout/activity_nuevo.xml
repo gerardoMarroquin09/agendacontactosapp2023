@@ -6,6 +6,10 @@
     android:orientation="vertical"
     tools:context=".NuevoActivity">
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="59dp" />
+
     <EditText
         android:id="@+id/txtNombre"
         android:layout_width="match_parent"
@@ -14,6 +18,10 @@
         android:hint="@string/hint_nombre"
         android:inputType="text"
         android:textSize="24sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
 
     <EditText
         android:id="@+id/txtApellido"
@@ -24,6 +32,10 @@
         android:inputType="text"
         android:textSize="24sp" />
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="44dp" />
+
     <EditText
         android:id="@+id/txtEdad"
         android:layout_width="match_parent"
@@ -32,6 +44,10 @@
         android:hint="@string/hint_edad"
         android:inputType="number"
         android:textSize="24sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="46dp" />
 
     <EditText
         android:id="@+id/txtdomicilio"
@@ -42,6 +58,10 @@
         android:inputType="text"
         android:textSize="24sp" />
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="44dp" />
+
     <EditText
         android:id="@+id/txtcorreo"
         android:layout_width="match_parent"
@@ -50,6 +70,10 @@
         android:hint="@string/hint_correo"
         android:inputType="textEmailAddress"
         android:textSize="24sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
 
     <EditText
         android:id="@+id/txttelefono"
@@ -60,14 +84,23 @@
         android:inputType="phone"
         android:textSize="24sp" />
 
-    <Button
-        android:id="@+id/btnGuarda"
+    <Space
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/hint_guardar"
-        android:textColor="#FBFAFA"
-        android:textColorHint="#FFFDFD"
-        android:textColorLink="#0C29C8"
-        android:textSize="24sp" />
+        android:layout_height="44dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnGuarda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_guardar"
+            android:textColor="#FBFAFA"
+            android:textColorHint="#FFFDFD"
+            android:textColorLink="#0C29C8"
+            android:textSize="24sp" />
+    </TableRow>
 
 </LinearLayout>

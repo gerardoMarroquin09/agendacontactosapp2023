@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import com.myapp.agenda_contactos.db.DbContactos;
 
+
 public class NuevoActivity extends AppCompatActivity {
     EditText txtNombre,txtApellido,txtEdad,txtdomicilio,txtcorreo,txttelefono;
     Button btnGuarda;
@@ -28,7 +29,7 @@ public class NuevoActivity extends AppCompatActivity {
 
         btnGuarda.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 DbContactos dbContactos = new DbContactos(NuevoActivity.this);
                 long id = dbContactos.insertarContacto(txtNombre.getText().toString(),txtApellido.getText().toString(),txtEdad.getText().toString(),txtdomicilio.getText().toString(),txtcorreo.getText().toString(),txttelefono.getText().toString());
                 if (id>0){

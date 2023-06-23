@@ -2,4 +2,10 @@
     <string name="app_name">Agenda_contactos</string>
     <string name="hint_nombre">Nombre:</string>
     <string name="hint_apellido">Apellido:</string>
+    <string name="hint_edad">Edad:</string>
+    <string name="hint_domicilio">Domicilio:</string>
+    <string name="hint_correo">Correo Electronico:</string>
+    <string name="hint_telefono">Telefono:</string>
+    <string name="hint_guardar">Guardar registro</string>
+    <string name="menu_nuevo">Nuevo registro</string>
 </resources>
